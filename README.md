@@ -55,17 +55,13 @@ http://127.0.0.1:8000/docs
 - Swagger UI uses the **Authorize** button to obtain a JWT token from the hidden `/token` endpoint.
 - Protected API routes, such as `GET /`, require a valid JWT token.
 
-## How It Works (Interview / Resume Friendly)
+## How It Works 
 
 - Built a REST API using **FastAPI** and **SQLAlchemy** to manage security scan records.
 - Implemented secure user registration with hashed passwords using **Passlib + bcrypt**.
 - Added JWT-based authentication so only authorized users can access protected data.
 - Integrated Swagger UI OAuth2 flow so login happens through the **Authorize** button instead of a visible login route.
 - Used PostgreSQL as the persistence layer and handled database session management cleanly with dependency injection.
-
-## Example Resume Bullet
-
-- Developed a FastAPI-based security scanner management API with PostgreSQL persistence, user registration, hashed password security, JWT authentication, and Swagger OAuth2 login.
 
 ## Notes
 
