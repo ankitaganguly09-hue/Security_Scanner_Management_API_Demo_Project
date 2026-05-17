@@ -1,4 +1,4 @@
-# Security_Scanner_Management_FastAPI_Demo_Project
+# Security_Scanner_Management_FastAPI_Project
 
 A FastAPI-based demo project for security scan management with PostgreSQL persistence, user registration, JWT authentication, and Swagger OAuth2 authorization.
 
